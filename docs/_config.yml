@@ -1,0 +1,41 @@
+title: Support Prompts Knowledge
+description: Questetra ワークフローのサポート記事を収録するナレッジベース
+lang: ja
+url: ""
+baseurl: ""
+permalink: pretty
+markdown: kramdown
+highlighter: rouge
+google_fonts: "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap"
+
+collections: {}
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      sidebar_title: 同じカテゴリの記事
+
+navigation:
+  - title: ナレッジベース
+    url: /
+  - title: 日付／日時データ更新
+    url: /date_datetime/knowledge/
+
+sections:
+  date_datetime:
+    title: 日付／日時データ更新
+    url: /date_datetime/knowledge/
+
+section_labels:
+  date_datetime: 日付／日時データ更新
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+  toc_levels: 2..3
+
+sass:
+  style: compressed
