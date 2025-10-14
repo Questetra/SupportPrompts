@@ -1,8 +1,8 @@
 title: Support Prompts Knowledge
 description: Questetra ワークフローのサポート記事を収録するナレッジベース
 lang: ja
-url: ""
-baseurl: ""
+url: "https://questetra.github.io"
+baseurl: "/SupportPrompts"
 permalink: pretty
 markdown: kramdown
 highlighter: rouge
